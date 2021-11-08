@@ -79,7 +79,7 @@
 	
 	var LetraI = [40, 40, 40, 60, 60, 60, 60, 100, 40, 100, 40,120, 100, 120, 100, 100, 80, 100, 80, 60, 100, 60, 100, 40 ];
 
-	var rot = (-5/12*Math.Pi);
+	var rot = 75;
 
 	var vec_tran = centro(LetraI);
 
@@ -88,7 +88,7 @@
 	var LetraI_rot_cent = rotarobj(LetraI_centr, rot)
 
 	var LetraI_rot = SumaT(LetraI_rot_cent, vec_tran)
-	
+
 	polygon(LetraI, 'yellow','red', 4)
 	
 	polygon(LetraI_rot, 'yellow','red', 4)
